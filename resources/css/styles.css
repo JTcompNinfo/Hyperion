@@ -1,0 +1,21 @@
+/*
+colors
+
+Yellow #f3c933
+Black #1c1a12
+White #ffffff
+
+
+
+*/
+* {
+    color:#1c1a12;
+}
+
+.logo {
+    width: 75px;
+}
+
+.nav-custom {
+    background-color:#f3c933 !important ;
+}
