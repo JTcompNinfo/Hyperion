@@ -19,3 +19,8 @@ White #ffffff
 .nav-custom {
     background-color:#f3c933 !important ;
 }
+
+.header {
+    background: url(../images/hero.jpeg) no-repeat center center/cover;
+    height: 500px;
+}
