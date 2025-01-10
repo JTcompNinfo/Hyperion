@@ -23,4 +23,31 @@ White #ffffff
 .header {
     background: url(../images/hero.jpeg) no-repeat center center/cover;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    Photo by <a href="https://www.pinterest.com/saxongames/">Saxon Games</a> on <a href="https://www.pinterest.com/pin/471118811019517917/">Pintrest</a>
+
+    */
+}
+
+.logo-2 {   
+    width: 50%;
+    display: block;
+    margin-left: 100%;
+    margin-right: 100%;
+    margin-bottom:0% ;
+}
+
+.slogan {
+    background-color: #f3c933;
+    padding:3%
+}
+
+.slogan h4,
+.slogan h6 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
