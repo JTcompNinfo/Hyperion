@@ -11,6 +11,10 @@ White #ffffff
 * {
     color:#1c1a12;
 }
+body {
+    background-color: #f3c933;
+}
+
 
 .logo {
     width: 75px;
@@ -41,8 +45,9 @@ White #ffffff
 }
 
 .slogan {
-    background-color: #f3c933;
-    padding:3%
+    background-color: #1c1a12;
+    padding:3%;
+    color: #f3c933;
 }
 
 .slogan h4,
@@ -55,4 +60,27 @@ White #ffffff
 .card-img-top {
     width:100%;
     height: 200px;
+}
+
+.card {
+    border-color: #ffffff;
+}
+
+.card-body {
+    background-color: #1c1a12;
+    color:#f3c933;
+}
+
+.btn-cust,
+ .btn-cust:hover,
+ .btn-cust:active {
+    border-color: #f3c933;
+    background-color: #f3c933;
+    color: #1c1a12;
+}
+
+footer {
+    padding: 10%;
+    background-color: #1c1a12;
+    color: #f3c933;
 }
