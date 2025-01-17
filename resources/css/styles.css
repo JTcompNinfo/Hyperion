@@ -8,11 +8,33 @@ White #ffffff
 
 
 */
+/* fonts
+ font-family: "Orbitron", serif;
+ font-family: "Audiowide", serif;
+ font-family: "Tomorrow", serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     color:#1c1a12;
 }
 body {
     background-color: #f3c933;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Orbitron", serif;
+}
+
+a,
+.nav-link,
+.btn {
+    font-family: "Tomorrow", serif;
 }
 
 
@@ -128,3 +150,22 @@ footer {
 }
 
 
+p {
+    text-indent: 50px;
+    font-family: "Audiowide", serif;
+}
+
+.padding p {
+    padding: 2%;
+}
+.hero {
+ background: url(../images/handsomejack.webp) no-repeat top center/cover;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /*
+    Photo by <a href="https://www.pinterest.com/saxongames/">Saxon Games</a> on <a href="https://www.pinterest.com/pin/471118811019517917/">Pintrest</a>
+
+*/
+}
